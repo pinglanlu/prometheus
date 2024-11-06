@@ -208,7 +208,7 @@ func getEndpointInfoForSystems(
 	if err != nil {
 		return nil, err
 	}
-	return endpointInfos, err
+	return endpointInfos, nil
 }
 
 // NewDiscovery returns a uyuni discovery for the given configuration.
